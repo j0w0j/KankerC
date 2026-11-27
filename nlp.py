@@ -43,6 +43,7 @@ def build_vocab(tokenized_docs: list[list[str]]):
     return vocab
 
 def main():
+    # dit gaan we niet zo gebruiken maar voor het testen gebruiken ik even een main
     docs_per_file = load_multiple_files("KankerC/Input/test.txt", "KankerC/Input/test2.txt")
     all_tokenized_docs = []
 
